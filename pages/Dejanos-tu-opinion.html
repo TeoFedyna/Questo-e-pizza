@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- media querys -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questo Pizzas</title>
+        <!-- google font - tipografia Lora - 600 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+        <!-- css -->
+        <link rel="stylesheet" href="../css/estilos.css">
+        <!-- icono ventana  -->
+        <link rel="shorcut icon" href="../images/questo-logo.jpeg">
+        <!-- font awesome iconos -->
+        <script src="https://kit.fontawesome.com/657a0e0360.js" crossorigin="anonymous"></script>
+    </head>
+
+
+<body>
+
+    <header>
+        <img class="logo" src="../images/questo-logo.jpeg" alt="Questo" width="60">
+        
+        <a class="header__open" href="#sidebar">
+            <i class="header__icon fa-solid fa-bars"></i>
+        </a>
+
+        <div class="nav__bar" id="sidebar">
+            <nav class="box">
+                <a class="link" href="../index.html">Home</a>
+                <a class="link" href="../pages/Menu.html">Menu</a>
+                <a class="link" href="../pages/Nostros.html">Nosotros</a>
+                <a class="link" href="../pages/Dejanos-tu-opinion.html">Dejanos tu opinion</a>
+                <a class="link" href="../pages/Trabaja-con-nosotros.html">Trabaja con nosotros</a>
+                <a class="link link--oculto" href="#"> <img src="/images/x.png" alt="salida"> </a> 
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="main-opinion">
+
+        <section class="link__hijo link__hijo--1">
+            <p class="link__hijo2 link__hijo2--1">Para nosotros lo mas importante son los clientes, por eso queremos saber sus opiniones e ideas.
+                <br>
+                Para poder seguir aprendiendo y mejorando
+            </p>
+        </section>
+
+        <section class="link__hijo link__hijo--2">
+
+            <div class="link__hijo2 link__hijo2--2">
+                <label for="nombre">Nombre:</label>
+                <input required type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre...">
+            </div>
+
+            <div class="link__hijo2 link__hijo2--3">
+                <label for="correo electronico">Correo electronico:</label>
+                <input type="text" id="correo electronico" name="correo electronico" placeholder="ejemplo@tuemail.com">
+            </div>
+
+            <div class="link__hijo2 link__hijo2--4">
+                <label for="comentario">Comentario:</label>
+                <textarea required name="comentario" id="comentario" cols="40" rows="15"
+                    placeholder="Dejanos tu comentario..."></textarea>
+            </div>
+
+            <div class="link__hijo2 link__hijo2--5">
+                <button>Enviar</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer1">
+
+            <p class="footer1__hijo footer1__hijo--1">Encontranos en:<a href="https://www.instagram.com/questo.e.pizza/"
+                    target="_blank"><img src="../images/Instagram-Icon.png.webp" alt="instagram" width="40"></a></p>
+
+            <p class="footer1__hijo footer1__hijo--2">Hace tu pedido por:<a
+                    href="https://api.whatsapp.com/send/?phone=5491151345343&text&app_absent=0" target="_blank"><img
+                        src="../images/whatsapp-logo.png" alt="whatsapp" width="35"></a></p>
+
+            <p class="footer1__hijo footer1__hijo--3">Abierto de Jueves a Domingo
+                <br>
+                De 8 PM a 12 PM
+            </p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

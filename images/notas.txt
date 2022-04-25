@@ -1,0 +1,2 @@
+.sacar fotos de todas las pizza en tabla de madera (horizontal y vertical)
+.hacer videos de cada pizza (a ser posible en slowmotion)
