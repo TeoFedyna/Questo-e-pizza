@@ -44,9 +44,10 @@ header {
     display: none;
 }
 
-.link--oculto{
+.link--oculto {
     display: none;
 }
+
 /* ----------------MAIN ALL-----------------*/
 main {
     font-family: 'Lora', serif;
@@ -153,6 +154,7 @@ footer {
 
 .menu__hijo h1 {
     text-decoration: underline;
+    font-size: 30px;
 }
 
 .menu__hijo h3 {
@@ -161,8 +163,6 @@ footer {
 
 /* ----------------main nosotros-----------------*/
 .nosotros {
-    /* hacer una cuadrilla de 3 filas x 2 columnas 
-    con espaciado en el meido*/
     display: grid;
     grid-template-columns: auto;
 
@@ -276,9 +276,8 @@ footer {
         color: aliceblue;
         margin-right: 10px;
     }
- 
-    /* inicio de sidebar */
 
+    /* inicio de sidebar */
     #sidebar:target {
         transform: translateX(0);
     }
@@ -312,22 +311,22 @@ footer {
         width: 55px;
     }
 
-    .header__open{
+    .header__open {
         text-decoration: none;
     }
-    
-    .link--oculto{
+
+    .link--oculto {
         display: block;
     }
-    
+
     .header__open {
         display: block;
     }
-    
-    
+
     /* fin de sidebar */
 
-    /* body */
+
+    /*  home body */
 
     .main-index {
         grid-template-columns: 100%;
@@ -338,4 +337,12 @@ footer {
         font-size: 15px;
     }
 
+/* menu */
+.main-menu{
+    flex-direction: column;
+}
+
+.experiencia{
+    flex-direction: column;
+}
 }
