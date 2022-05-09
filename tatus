@@ -1,0 +1,41 @@
+[33mcommit a90a95fbaf056f12e73202dc3afe4be651047546[m[33m ([m[1;36mHEAD -> [m[1;32maplicando-bootstrap[m[33m, [m[1;31morigin/aplicando-bootstrap[m[33m)[m
+Author: Teo Fedyna <TeoFedyna@hotmail.com>
+Date:   Mon May 9 03:31:23 2022 -0300
+
+    agregando-bootstrap-a-pages:menu
+
+[33mcommit d95088b67f1da0d24e6d7405b2700b5683c6f059[m
+Author: Teo Fedyna <TeoFedyna@hotmail.com>
+Date:   Sun May 8 22:30:16 2022 -0300
+
+    agregando-bootstrap-a-pages:nosotros
+
+[33mcommit 73f5fe34e777debe455d1b18b4ea023aae65937a[m
+Author: Teo Fedyna <TeoFedyna@hotmail.com>
+Date:   Sun May 8 22:28:56 2022 -0300
+
+    agregando-bootstrap-a-pages:nosotros
+
+[33mcommit c7bda96e595bec41e66ab204d5f076f27f3ea100[m
+Author: Teo Fedyna <TeoFedyna@hotmail.com>
+Date:   Wed May 4 17:51:54 2022 -0300
+
+    primera depresion
+
+[33mcommit 338581e50ae7fc8e1aa7dfd27f70307882b05f85[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature/changes[m[33m)[m
+Author: Teo Fedyna <TeoFedyna@hotmail.com>
+Date:   Wed May 4 16:48:06 2022 -0300
+
+    cambios
+
+[33mcommit b3b76e8f3d3ba629e097e62c1b3fe591d8c851ed[m
+Author: TeoFedyna <104461924+TeoFedyna@users.noreply.github.com>
+Date:   Tue Apr 26 17:58:30 2022 -0300
+
+    archivo README.mb
+
+[33mcommit 94ba314637a7faff42eae1ae65e408c50de0792a[m
+Author: Teo Fedyna <TeoFedyna@hotmail.com>
+Date:   Mon Apr 25 19:21:26 2022 -0300
+
+    inicializando proyecto

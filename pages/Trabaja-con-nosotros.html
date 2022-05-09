@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- media querys -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Questo Pizzas</title>
-        <!-- google font - tipografia Lora - 600 -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
-        <!-- css -->
-        <link rel="stylesheet" href="../css/estilos.css">
-        <!-- icono ventana  -->
-        <link rel="shorcut icon" href="../images/questo-logo.jpeg">
-        <!-- font awesome iconos -->
-        <script src="https://kit.fontawesome.com/657a0e0360.js" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- media querys -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questo Pizzas</title>
+    <!-- google font - tipografia Lora - 600 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <!-- icono ventana  -->
+    <link rel="shorcut icon" href="../images/questo-logo.jpeg">
+    <!-- font awesome iconos -->
+    <script src="https://kit.fontawesome.com/657a0e0360.js" crossorigin="anonymous"></script>
+    <!-- bootstap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
 
 <body>
 
     <header>
         <img class="logo" src="../images/questo-logo.jpeg" alt="Questo" width="60">
-        
+
         <a class="header__open" href="#sidebar">
             <i class="header__icon fa-solid fa-bars"></i>
         </a>
@@ -35,7 +42,7 @@
                 <a class="link" href="../pages/Nostros.html">Nosotros</a>
                 <a class="link" href="../pages/Dejanos-tu-opinion.html">Dejanos tu opinion</a>
                 <a class="link" href="../pages/Trabaja-con-nosotros.html">Trabaja con nosotros</a>
-                <a class="link link--oculto" href="#"> <img src="/images/x.png" alt="salida"> </a> 
+                <a class="link link--oculto" href="#"> <img src="/images/x.png" alt="salida"> </a>
             </nav>
         </div>
 
@@ -48,56 +55,61 @@
             <h3>A formar parte de la familia Questo</h3>
         </section>
 
-        <section class="trabajo__hijo trabajo__hijo--2">
-            <form action="" method="" enctype="">
-
-                <div class="trabajo__hijo2 trabajo__hijo2--1">
-                    <label for="nombre">Nombre:</label>
-                    <input required type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+        <section>
+            <div class="card-body">
+                <div class="mb-2">
+                    <label for="nombre-text" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre-txt" placeholder="Ingrese su nombre">
                 </div>
+            </div>
 
-                <div class="trabajo__hijo2 trabajo__hijo2--2">
-                    <label for="apellido">Apellido:</label>
-                    <input required type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+            <div class="card-body">
+                <div class="mb-2">
+                    <label for="apellido-text" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido-txt" placeholder="Ingrese su apellido">
                 </div>
+            </div>
 
-                <div class="trabajo__hijo2 trabajo__hijo2--3">
-                    <label for="correo-electronico">Correo electronico:</label>
-                    <input required type="text" id="correo-electronico" name="correo-electronico"
-                        placeholder="ejemplo@tuemail.com">
+            <div class="card-body">
+                <div class="mb-2">
+                    <label for="correo-text" class="form-label">Correo electronico</label>
+                    <input type="text" class="form-control" id="correo-txt" placeholder="ejemplo@email.com">
                 </div>
+            </div>
 
-                <div class="trabajo__hijo2 trabajo__hijo2--4">
-                    <label for="numero-de-telefono">Numero de telefono:</label>
-                    <input required type="number" id="numero-de-telefono" name="numero-de-telefono"
-                        placeholder="(ej)+54 11 4455-73etc">
+            <div class="card-body">
+                <div class="mb-2">
+                    <label for="telefono-text" class="form-label">Numero de telefono</label>
+                    <input type="text" class="form-control" id="telefono-txt" placeholder="(ej)+54 11 4455-73etc">
                 </div>
+            </div>
 
-                <div class="trabajo__hijo2 trabajo__hijo2--5">
-                    <label for="sexo">Sexo:</label>
-                    <select name="sexo" id="sexo">
-                        <option value="Hombre">Hombre</option>
-                        <option value="Mujer">Mujer</option>
-                        <option value="Otros">Otros</option>
-                    </select>
+            <div class="card-body mb-2">
+                <label for="sexo-select" id="sexo-select">Sexo</label>
+                <select class="form-select" id="sexo-select">
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                    <option value="3">Otro</option>
+                </select>
+            </div>
+
+            <div class="card-body">
+                <div class="mb-2">
+                    <label for="edad-num" class="form-label">Edad</label>
+                    <input type="number" class="form-control" id="edad-num" placeholder="DD/MM/AA">
                 </div>
+            </div>
 
-                <div class="trabajo__hijo2 trabajo__hijo2--6">
-                    <label for="edad">Edad:</label>
-                    <input required type="number" id="edad" name="edad" placeholder="DD/MM/AA">
+            <div class="card-body">
+                <div class="mb-2">
+                    <label for="experiencia-text" class="form-label">Experiencia laboral</label>
+                    <textarea type="text" class="form-control" id="experiencia-text"
+                        placeholder="Contanos tus experiencias laborales"></textarea>
                 </div>
+            </div>
 
-                <div class="trabajo__hijo2 trabajo__hijo2--7">
-                    <label for="experiencia-laboral">Experiencia laboral:</label>
-                    <textarea class="experiencia" required name="comentario" id="experiencia-laboral"
-                        placeholder="Contanos tus experiencias laborales" cols="40" rows="15"></textarea>
-                </div>
+            <button type="submit" class="btn btn-dark mb-2">Enviar</button>
 
-                <div class="trabajo__hijo2 trabajo__hijo2--8">
-                    <button>Enviar</button>
-                </div>
-
-            </form>
         </section>
 
     </main>

@@ -186,7 +186,7 @@ footer {
     background-color: #161616;
 }
 
-/* ----------------main opinion-----------------*/
+/* ----------------main opinion (bst)-----------------*/
 .main-opinion {
     text-align: center;
     display: flex;
@@ -201,15 +201,7 @@ footer {
 
 }
 
-.link__hijo2--4 {
-    display: flex;
-}
-
-.link__hijo2--4 label {
-    width: 140px;
-}
-
-/* ----------------main trabajo-----------------*/
+/* ----------------main trabajo (bst)-----------------*/
 .main-trabajo {
     text-align: center;
     display: flex;
@@ -219,25 +211,10 @@ footer {
     border-radius: 25px;
 }
 
-.link__hijo--1 {
-    width: 100%;
-}
-
 .trabajo__hijo--1 {
     padding: 2%;
 }
 
-.trabajo__hijo2 {
-    padding: 2%;
-}
-
-.trabajo__hijo2--7 {
-    display: flex;
-}
-
-.trabajo__hijo2--7 label {
-    width: 200px;
-}
 
 /* ----------------media querys mobile-----------------*/
 
@@ -317,7 +294,7 @@ footer {
         font-size: 15px;
     }
 
-    /* menu */
+    /* menu (bst)*/
     .menu {
         flex-direction: column;
     }
