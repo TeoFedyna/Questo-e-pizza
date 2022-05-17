@@ -1,305 +1,290 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
 }
-
 
 /*----------------HEADER ALL------------*/
 header {
-    font-family: 'Lora', serif;
-    line-height: 2;
-    text-decoration: none;
-    background-color: #161616;
-    display: flex;
-    justify-content: space-evenly;
+  font-family: "Lora", serif;
+  line-height: 2;
+  text-decoration: none;
+  background-color: #161616;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .logo {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 
 .nav__bar {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 .box {
-    display: flex;
-    margin-left: 13%;
-    margin-right: 13%;
-    width: 100%;
+  display: flex;
+  margin-left: 13%;
+  margin-right: 13%;
+  width: 100%;
 }
 
 .box a {
-    text-decoration: none;
-    color: azure;
-    margin-top: 6px;
-    margin-left: 2%;
-    margin-bottom: 6px;
-    margin-right: 2%;
-    padding: 5px;
+  text-decoration: none;
+  color: azure;
+  margin-top: 6px;
+  margin-left: 2%;
+  margin-bottom: 6px;
+  margin-right: 2%;
+  padding: 5px;
 }
 
 .header__open {
-    display: none;
+  display: none;
 }
 
 .link--oculto {
-    display: none;
+  display: none;
 }
 
 /* ----------------MAIN ALL-----------------*/
 main {
-    font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 /*--------------------FOOTER ALL--------------------*/
 footer {
-
-    bottom: 0px;
-    font-family: 'Lora', serif;
-    width: 100%;
-    margin-top: 10px;
+  bottom: 0px;
+  font-family: "Lora", serif;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .footer1 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas:
-        "ele1 ele2"
-        "ele3 ele3"
-    ;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "ele1 ele2" "ele3 ele3";
+  text-align: center;
 }
 
 .footer1 p {
-    padding: 2px;
+  padding: 2px;
 }
 
 .footer1__hijo--1 {
-    grid-area: ele1;
+  grid-area: ele1;
 }
 
 .footer1__hijo--2 {
-    grid-area: ele2;
+  grid-area: ele2;
 }
 
 .footer1__hijo--3 {
-    grid-area: ele3;
-    margin-top: 5px;
+  grid-area: ele3;
+  margin-top: 5px;
 }
-
 
 /* ----------------main index-----------------*/
 .main-index {
-    background-color: black;
-    background-image: url(../images/masa.jpg);
-    background-size: contain;
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: center;
-
-
+  background-color: black;
+  background-image: url(../images/masa.jpg);
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
 }
 
 .inicio {
-    font-size: 20px;
-    text-align: center;
-    min-width: 90%;
-    padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  min-width: 90%;
+  padding: 5px;
 }
 
 .inicio__titulo {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .noticia {
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 2%;
-    margin-top: 18px;
-    margin-bottom: 5px;
-    background: linear-gradient(270deg, rgba(97, 97, 97, 1) 0%, rgba(50, 49, 49, 1) 47%, rgba(22, 22, 22, 1) 100%);
-    color: white;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 2%;
+  margin-top: 18px;
+  margin-bottom: 5px;
+  background: linear-gradient(270deg, rgb(97, 97, 97) 0%, rgb(50, 49, 49) 47%, rgb(22, 22, 22) 100%);
+  color: white;
 }
 
 .novedad__titulo {
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .novedad__imagen img {
-    font-size: 15px;
-    margin-top: 1%;
+  font-size: 15px;
+  margin-top: 1%;
 }
 
 .novedad__descripcion {
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 /* ----------------main menu (bst)-----------------*/
 .menu {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .card-header {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .card-hearder--1 {
-    background-color: #161616;
-    color: azure;
+  background-color: #161616;
+  color: azure;
 }
 
 .card-body--1 {
-    background-color: #161616;
+  background-color: #161616;
 }
 
 .menu h5 {
-    text-decoration: underline;
-    color: azure;
+  text-decoration: underline;
+  color: azure;
 }
 
 .menu p {
-    color: azure;
+  color: azure;
 }
 
 .menu ul {
-    color: azure;
+  color: azure;
 }
 
 /* ----------------main nosotros (bst)-----------------*/
-
 .col-md-8 {
-    background-color: #161616;
-    color: azure;
+  background-color: #161616;
+  color: azure;
 }
 
 .col-md-8 h5 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .col-md-4 {
-    background-color: #161616;
+  background-color: #161616;
 }
 
 /* ----------------main opinion (bst)-----------------*/
 .main-opinion {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 25px;
 }
 
 .link__hijo2 {
-    padding: 2%;
-
+  padding: 2%;
 }
 
 /* ----------------main trabajo (bst)-----------------*/
 .main-trabajo {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 25px;
 }
 
 .trabajo__hijo--1 {
-    padding: 2%;
+  padding: 2%;
 }
-
 
 /* ----------------media querys mobile-----------------*/
-
 @media screen and (max-width: 600px) {
+  /* header */
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    /* header */
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .header__icon {
+    display: block;
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 10px;
+  }
 
-    .header__icon {
-        display: block;
-        font-size: 30px;
-        color: aliceblue;
-        margin-right: 10px;
-    }
+  /* inicio de sidebar */
+  #sidebar:target {
+    transform: translateX(0);
+  }
 
-    /* inicio de sidebar */
-    #sidebar:target {
-        transform: translateX(0);
-    }
+  .header__open {
+    margin-right: 3%;
+  }
 
-    .header__open {
-        margin-right: 3%;
-    }
+  #sidebar {
+    background-color: #161616;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100vh;
+    width: 80%;
+    max-width: 5350px;
+    padding: 2px;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+  }
 
-    #sidebar {
-        background-color: #161616;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1000;
-        height: 100vh;
-        width: 80%;
-        max-width: 5350px;
-        padding: 2px;
+  #sidebar .box {
+    height: 100%;
+    flex-direction: column;
+    margin-left: 2px;
+  }
 
-        transform: translateX(-100%);
-        transition: transform 0.5s;
-    }
+  .box img {
+    width: 55px;
+  }
 
-    #sidebar .box {
-        height: 100%;
-        flex-direction: column;
-        margin-left: 2px;
-    }
+  .header__open {
+    text-decoration: none;
+  }
 
-    .box img {
-        width: 55px;
-    }
+  .link--oculto {
+    display: block;
+  }
 
-    .header__open {
-        text-decoration: none;
-    }
+  .header__open {
+    display: block;
+  }
 
-    .link--oculto {
-        display: block;
-    }
+  /* fin de sidebar */
+  /*  home body */
+  .main-index {
+    grid-template-columns: 100%;
+    width: 100%;
+  }
 
-    .header__open {
-        display: block;
-    }
+  .inicio__loremhome {
+    font-size: 15px;
+  }
 
-    /* fin de sidebar */
+  /* menu (bst)*/
+  .menu {
+    flex-direction: column;
+  }
 
-
-    /*  home body */
-
-    .main-index {
-        grid-template-columns: 100%;
-        width: 100%;
-    }
-
-    .inicio__loremhome {
-        font-size: 15px;
-    }
-
-    /* menu (bst)*/
-    .menu {
-        flex-direction: column;
-    }
-
-    .card--1{
+  .card--1 {
     min-width: 100%;
-    }
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
