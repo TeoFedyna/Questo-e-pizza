@@ -7,45 +7,23 @@
 /*----------------HEADER ALL------------*/
 header {
   font-family: "Lora", serif;
-  line-height: 2;
-  text-decoration: none;
+}
+header .navbar {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+header .container-fluid {
   background-color: #161616;
-  display: flex;
-  justify-content: space-evenly;
 }
-
-.logo {
-  margin-left: 3%;
-}
-
-.nav__bar {
+header .navbar-nav {
   width: 100%;
-  display: flex;
+  justify-content: space-around;
 }
-
-.box {
-  display: flex;
-  margin-left: 13%;
-  margin-right: 13%;
-  width: 100%;
-}
-
-.box a {
-  text-decoration: none;
+header .navbar-nav a {
   color: azure;
-  margin-top: 6px;
-  margin-left: 2%;
-  margin-bottom: 6px;
-  margin-right: 2%;
-  padding: 5px;
 }
-
-.header__open {
-  display: none;
-}
-
-.link--oculto {
-  display: none;
+header .navbar-toggler {
+  border: 1px solid azure;
 }
 
 /* ----------------MAIN ALL-----------------*/
@@ -60,28 +38,23 @@ footer {
   width: 100%;
   margin-top: 10px;
 }
-
-.footer1 {
+footer .footer1 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   grid-template-areas: "ele1 ele2" "ele3 ele3";
   text-align: center;
 }
-
-.footer1 p {
+footer .footer1 p {
   padding: 2px;
 }
-
-.footer1__hijo--1 {
+footer .footer1__hijo--1 {
   grid-area: ele1;
 }
-
-.footer1__hijo--2 {
+footer .footer1__hijo--2 {
   grid-area: ele2;
 }
-
-.footer1__hijo--3 {
+footer .footer1__hijo--3 {
   grid-area: ele3;
   margin-top: 5px;
 }
@@ -95,15 +68,14 @@ footer {
   grid-template-columns: 100%;
   justify-items: center;
 }
-
-.inicio {
+.main-index article {
   font-size: 20px;
   text-align: center;
   min-width: 90%;
   padding: 5px;
+  color: #161616;
 }
-
-.inicio__titulo {
+.main-index h1 {
   font-size: 45px;
 }
 
@@ -117,18 +89,15 @@ footer {
   background: linear-gradient(270deg, rgb(97, 97, 97) 0%, rgb(50, 49, 49) 47%, rgb(22, 22, 22) 100%);
   color: white;
 }
-
-.novedad__titulo {
+.noticia h3 {
   margin-bottom: 1%;
 }
-
-.novedad__imagen img {
+.noticia p {
+  margin-bottom: 1%;
+}
+.noticia .novedad__imagen img {
   font-size: 15px;
   margin-top: 1%;
-}
-
-.novedad__descripcion {
-  margin-bottom: 1%;
 }
 
 /* ----------------main menu (bst)-----------------*/
@@ -136,31 +105,23 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-
-.card-header {
-  text-decoration: underline;
-}
-
-.card-hearder--1 {
-  background-color: #161616;
-  color: azure;
-}
-
-.card-body--1 {
-  background-color: #161616;
-}
-
 .menu h5 {
   text-decoration: underline;
   color: azure;
 }
-
 .menu p {
   color: azure;
 }
-
 .menu ul {
   color: azure;
+}
+.menu .card-header {
+  text-decoration: underline;
+  background-color: #161616;
+  color: azure;
+}
+.menu .card-body--1 {
+  background-color: #161616;
 }
 
 /* ----------------main nosotros (bst)-----------------*/
@@ -168,7 +129,6 @@ footer {
   background-color: #161616;
   color: azure;
 }
-
 .col-md-8 h5 {
   text-decoration: underline;
 }
@@ -186,8 +146,7 @@ footer {
   border: 2px solid black;
   border-radius: 25px;
 }
-
-.link__hijo2 {
+.main-opinion .link__hijo2 {
   padding: 2%;
 }
 
@@ -200,80 +159,20 @@ footer {
   border: 2px solid black;
   border-radius: 25px;
 }
-
-.trabajo__hijo--1 {
+.main-trabajo .trabajo__hijo--1 {
   padding: 2%;
 }
 
 /* ----------------media querys mobile-----------------*/
 @media screen and (max-width: 600px) {
   /* header */
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .header__icon {
-    display: block;
-    font-size: 30px;
-    color: aliceblue;
-    margin-right: 10px;
-  }
-
-  /* inicio de sidebar */
-  #sidebar:target {
-    transform: translateX(0);
-  }
-
-  .header__open {
-    margin-right: 3%;
-  }
-
-  #sidebar {
-    background-color: #161616;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    height: 100vh;
-    width: 80%;
-    max-width: 5350px;
-    padding: 2px;
-    transform: translateX(-100%);
-    transition: transform 0.5s;
-  }
-
-  #sidebar .box {
-    height: 100%;
-    flex-direction: column;
-    margin-left: 2px;
-  }
-
-  .box img {
-    width: 55px;
-  }
-
-  .header__open {
-    text-decoration: none;
-  }
-
-  .link--oculto {
-    display: block;
-  }
-
-  .header__open {
-    display: block;
-  }
-
   /* fin de sidebar */
   /*  home body */
   .main-index {
     grid-template-columns: 100%;
     width: 100%;
   }
-
-  .inicio__loremhome {
+  .main-index .inicio__loremhome {
     font-size: 15px;
   }
 
@@ -281,8 +180,7 @@ footer {
   .menu {
     flex-direction: column;
   }
-
-  .card--1 {
+  .menu .card--1 {
     min-width: 100%;
   }
 }
