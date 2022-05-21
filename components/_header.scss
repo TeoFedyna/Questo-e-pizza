@@ -1,0 +1,30 @@
+/*----------------HEADER ALL------------*/
+header {
+    font-family: 'Lora', serif;
+
+    .navbar {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .container-fluid {
+        background-color: #161616;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        justify-content: space-around;
+        a {
+            color: azure;
+        }
+    }
+
+    .navbar-toggler {
+        border: 1px solid azure;
+
+        img {
+            max-width: 30px;
+        }
+    }
+
+}

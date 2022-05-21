@@ -1,0 +1,23 @@
+/* ----------------media querys mobile-----------------*/
+
+@media screen and (max-width: 600px) {
+
+    .main-index {
+        grid-template-columns: 100%;
+        width: 100%;
+
+        .inicio__loremhome {
+            font-size: 15px;
+        }
+    }
+
+    /* menu (bst)*/
+    .menu {
+        flex-direction: column;
+
+
+        .card--1 {
+            min-width: 100%;
+        }
+    }
+}

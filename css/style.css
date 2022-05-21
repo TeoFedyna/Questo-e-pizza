@@ -4,6 +4,10 @@
   box-sizing: 0;
 }
 
+main {
+  font-family: "Lora", serif;
+}
+
 /*----------------HEADER ALL------------*/
 header {
   font-family: "Lora", serif;
@@ -25,10 +29,8 @@ header .navbar-nav a {
 header .navbar-toggler {
   border: 1px solid azure;
 }
-
-/* ----------------MAIN ALL-----------------*/
-main {
-  font-family: "Lora", serif;
+header .navbar-toggler img {
+  max-width: 30px;
 }
 
 /*--------------------FOOTER ALL--------------------*/
@@ -61,9 +63,7 @@ footer .footer1__hijo--3 {
 
 /* ----------------main index-----------------*/
 .main-index {
-  background-color: black;
-  background-image: url(../images/masa.jpg);
-  background-size: contain;
+  background-color: #161616;
   display: grid;
   grid-template-columns: 100%;
   justify-items: center;
@@ -77,6 +77,13 @@ footer .footer1__hijo--3 {
 }
 .main-index h1 {
   font-size: 45px;
+  color: azure;
+}
+.main-index h2 {
+  color: azure;
+}
+.main-index p {
+  color: azure;
 }
 
 .noticia {
@@ -165,9 +172,6 @@ footer .footer1__hijo--3 {
 
 /* ----------------media querys mobile-----------------*/
 @media screen and (max-width: 600px) {
-  /* header */
-  /* fin de sidebar */
-  /*  home body */
   .main-index {
     grid-template-columns: 100%;
     width: 100%;

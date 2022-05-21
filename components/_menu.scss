@@ -1,0 +1,29 @@
+/* ----------------main menu (bst)-----------------*/
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+    h5 {
+        text-decoration: underline;
+        color: azure;
+    }
+
+    p {
+        color: azure;
+    }
+
+    ul {
+        color: azure;
+    }
+
+    .card-header {
+        text-decoration: underline;
+        background-color: #161616;
+        color: azure;
+    }
+
+    .card-body--1 {
+        background-color: #161616;
+    }
+
+}

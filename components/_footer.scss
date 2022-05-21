@@ -1,0 +1,36 @@
+/*--------------------FOOTER ALL--------------------*/
+footer {
+
+    bottom: 0px;
+    font-family: 'Lora', serif;
+    width: 100%;
+    margin-top: 10px;
+
+    .footer1 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+            "ele1 ele2"
+            "ele3 ele3"
+        ;
+        text-align: center;
+
+        p {
+            padding: 2px;
+        }
+
+        &__hijo--1 {
+            grid-area: ele1;
+        }
+
+        &__hijo--2 {
+            grid-area: ele2;
+        }
+
+        &__hijo--3 {
+            grid-area: ele3;
+            margin-top: 5px;
+        }
+    }
+}

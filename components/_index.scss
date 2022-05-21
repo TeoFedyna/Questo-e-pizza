@@ -1,0 +1,54 @@
+/* ----------------main index-----------------*/
+.main-index {
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+
+    article {
+        font-size: 20px;
+        text-align: center;
+        min-width: 90%;
+        padding: 5px;
+        color: #161616;
+    }
+
+    h1 {
+        font-size: 45px;
+        color: azure
+    }
+
+h2{
+    color: azure;
+}
+
+p{
+    color: azure;
+}
+}
+
+.noticia {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2%;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    background: linear-gradient(270deg, rgba(97, 97, 97, 1) 0%, rgba(50, 49, 49, 1) 47%, rgba(22, 22, 22, 1) 100%);
+    color: white;
+
+
+    h3 {
+        margin-bottom: 1%;
+    }
+
+    p {
+        margin-bottom: 1%;
+    }
+
+    .novedad__imagen img {
+        font-size: 15px;
+        margin-top: 1%;
+    }
+
+}
