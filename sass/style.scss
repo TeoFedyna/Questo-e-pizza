@@ -1,13 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: 0;
-}
-
-main {
-    font-family: 'Lora', serif;
-}
-
+// me toma el import pero dentro de la carpeta components no puedo hacer ningun cambio de css
+@import "../components/global";
 @import "../components/header";
 @import "../components/footer";
 @import "../components/index";
@@ -16,3 +8,4 @@ main {
 @import "../components/opinion";
 @import "../components/trabajo";
 @import "../components/media-querys";
+
