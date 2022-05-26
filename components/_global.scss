@@ -4,3 +4,25 @@
     box-sizing: 0;
     font-family: 'Lora', serif;
 }
+
+// @extend
+.card-extend {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+// @mixin index .noticia
+@mixin oldCard ($text-align) {
+    text-align: $text-align;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2%;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    background: linear-gradient(270deg, rgba(97, 97, 97, 1) 0%, rgba(50, 49, 49, 1) 47%, rgba(22, 22, 22, 1) 100%);
+    color: $contrastColor;
+}

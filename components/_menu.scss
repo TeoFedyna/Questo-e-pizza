@@ -5,25 +5,25 @@
 
     h5 {
         text-decoration: underline;
-        color: azure;
+        color: $contrastColor;
     }
 
     p {
-        color: azure;
+        color: $contrastColor;
     }
 
     ul {
-        color: azure;
+        color: $contrastColor;
     }
 
     .card-header {
         text-decoration: underline;
-        background-color: #161616;
-        color: azure;
+        background-color: $colorPrimary;
+        color: $contrastColor;
     }
 
     .card-body--1 {
-        background-color: #161616;
+        background-color: $colorPrimary;
     }
 
 }

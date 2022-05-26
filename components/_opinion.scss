@@ -1,14 +1,8 @@
 /* ----------------main opinion (bst)-----------------*/
 .main-opinion {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 25px;
+    @extend .card-extend;
+}
 
-    .link__hijo2 {
-        padding: 2%;
-
-    }
+.link__hijo2 {
+    padding: 2%;
 }

@@ -8,19 +8,19 @@ header {
     }
 
     .container-fluid {
-        background-color: #161616;
+        background-color: $colorPrimary;
     }
 
     .navbar-nav {
         width: 100%;
         justify-content: space-around;
         a {
-            color: azure;
+            color: $contrastColor;
         }
     }
 
     .navbar-toggler {
-        border: 1px solid azure;
+        border: 1px solid $contrastColor;
 
         img {
             max-width: 30px;
