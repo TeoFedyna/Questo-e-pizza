@@ -1,13 +1,15 @@
 /* ----------------main nosotros (bst)-----------------*/
 
 // .col-md-8 {
-//     background-color: $colorPrimary;
+//     background-color: map-get($map: $col-md-8, $key: 'pupi');
 //     color: $contrastColor;
 
 //     h5 {
 //         text-decoration: underline;
 //     }
 // }
+
+
 
 .col-md-4 {
     background-color: $colorPrimary;
