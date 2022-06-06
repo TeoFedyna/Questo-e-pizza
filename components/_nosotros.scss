@@ -1,5 +1,16 @@
 /* ----------------main nosotros (bst)-----------------*/
 
+.col-md-8 {
+    background-color: $colorPrimary;
+    color: $contrastColor;
+
+}
+
+.col-md-8__1 .col-md-8__2 img{
+    max-width: 255.33 x 307.94px;
+}
+
+// maps 
 // .col-md-8 {
 //     background-color: map-get($map: $col-md-8, $key: 'pupi');
 //     color: $contrastColor;

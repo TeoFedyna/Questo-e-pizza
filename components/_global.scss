@@ -29,20 +29,20 @@
 
 // Maps
 
-$col-md-8: (
-    pupi: #00ffff,
+// $col-md-8: (
+//     pupi: #00ffff,
 
-    pepe: #a52a2a,
+//     pepe: #a52a2a,
 
-    popi: #7fff00,
+//     popi: #7fff00,
 
-);
+// );
 
-@each $name, $color in $col-md-8 {
-    .#{$name} {
-        background-color: $color;
-        h5{
-            text-decoration: underline; 
-        }
-    }
-}
+// @each $name, $color in $col-md-8 {
+//     .#{$name} {
+//         background-color: $color;
+//         h5{
+//             text-decoration: underline; 
+//         }
+//     }
+// }
