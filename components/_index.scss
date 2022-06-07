@@ -4,18 +4,19 @@
     display: grid;
     grid-template-columns: 100%;
     justify-items: center;
+    border: 1px solid $contrastColor;
 
     article {
         font-size: 20px;
         text-align: center;
         min-width: 90%;
         padding: 5px;
-        color: $colorPrimary;
+        color: $contrastColor;
 
 
         h1 {
             font-size: 45px;
-            color: $contrastColor
+            color: $contrastColor;
         }
 
         h2 {
@@ -45,6 +46,7 @@
     .novedad__imagen img {
         font-size: 15px;
         margin-top: 1%;
+        border: 1px solid $contrastColor;
     }
 
 }
